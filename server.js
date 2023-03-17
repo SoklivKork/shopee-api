@@ -100,7 +100,7 @@ app.post("/createusers", function (req, res) {
   );
 });
 
-app.post('/order', function(req, res) {
+app.post('/orders', function(req, res) {
   const values = req.body
   console.log(values)
   connection.query(
